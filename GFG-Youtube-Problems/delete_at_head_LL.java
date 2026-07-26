@@ -26,6 +26,9 @@ class LL {
             return;
         }
         head = head.next;
+        if(head==null){
+            tail=null;
+        }
     }
 
     void display() {
