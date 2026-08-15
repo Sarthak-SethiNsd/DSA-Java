@@ -8,6 +8,7 @@ class Node {
     }
 }
 public class Palindrome_Linked_List_ArrayList_Approach {
+    // Cannot use == because Integer is an object; == compares references, while equals() compares values
     public boolean isPalindrome(Node head) {
         int cnt = 0;
         Node temp = head;
