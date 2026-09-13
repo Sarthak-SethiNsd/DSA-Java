@@ -1,3 +1,4 @@
+import java.util.*;
 public class Biweekly_Contest_191_Q2_Count_Values_With_Equally_Spaced_Occurrences_II {
     public int countSpecialIntegers(int[] nums) {
         HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
